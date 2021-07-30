@@ -1,0 +1,10 @@
+Link para o download do Git: https://git-scm/downloads
+Git Bash é o console/terminal extendido para utilização do Git.
+
+Alguns comandos:
+
+clear -> limpa tela
+dir -> mostra diretório/arquivos
+cd <diretorio> -> acessa diretório especifico
+cd .. -> sai do diretório atual
+git status -> mostra o status do projeto
