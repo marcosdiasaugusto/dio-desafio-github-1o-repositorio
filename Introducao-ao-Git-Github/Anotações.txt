@@ -8,3 +8,7 @@ dir -> mostra diretório/arquivos
 cd <diretorio> -> acessa diretório especifico
 cd .. -> sai do diretório atual
 git status -> mostra o status do projeto
+git add . ou git -A -> adiciona ao projeto local todos os arquivos/pastas criados/alterados
+git commit -m "Inclusão das anotações do curso de Git/Github" -> comita (grava) e comenta as alterações feitas ao projeot local
+git push origin main -> envia para nuvem (github.com) os arquivos/pastas criados/alterados
+
