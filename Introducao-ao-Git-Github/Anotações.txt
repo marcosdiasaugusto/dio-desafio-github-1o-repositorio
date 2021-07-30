@@ -8,3 +8,8 @@ dir -> mostra diretório/arquivos
 cd <diretorio> -> acessa diretório especifico
 cd .. -> sai do diretório atual
 git status -> mostra o status do projeto
+git clone https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git -> cria um clone local do projeto 
+permite criar um link -> [Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/) 
+git add. Ou git –A -> adiciona os arquivos ao projeto / Para enviar a pasta nova para o controle de versão
+git commit -m "Inclusão das anotações do curso de Git/Github"
+git push origin main _> Enviando todos os commits locais para  nuvem 
