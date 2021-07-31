@@ -8,6 +8,7 @@ dir -> mostra diretório/arquivos
 cd <diretorio> -> acessa diretório especifico
 cd .. -> sai do diretório atual
 git status -> mostra o status do projeto
+<<<<<<< HEAD
 git clone https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git -> cria um clone local do projeto 
 permite criar um link -> [Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/) 
 git add. Ou git –A -> adiciona os arquivos ao projeto / Para enviar a pasta nova para o controle de versãogitgit
@@ -81,3 +82,9 @@ fatal: Authentication failed for 'https://github.com/marcosdiasaugusto/dio-desaf
 
 Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
 $
+=======
+git add . ou git -A -> adiciona ao projeto local todos os arquivos/pastas criados/alterados
+git commit -m "Inclusão das anotações do curso de Git/Github" -> comita (grava) e comenta as alterações feitas ao projeot local
+git push origin main -> envia para nuvem (github.com) os arquivos/pastas criados/alterados
+
+>>>>>>> 7080a43d98741013fa0c766ca852daf772681f7c
