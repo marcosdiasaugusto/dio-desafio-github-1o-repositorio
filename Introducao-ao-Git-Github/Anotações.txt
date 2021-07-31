@@ -87,4 +87,193 @@ git add . ou git -A -> adiciona ao projeto local todos os arquivos/pastas criado
 git commit -m "Inclusão das anotações do curso de Git/Github" -> comita (grava) e comenta as alterações feitas ao projeot local
 git push origin main -> envia para nuvem (github.com) os arquivos/pastas criados/alterados
 
->>>>>>> 7080a43d98741013fa0c766ca852daf772681f7c
+$ git add .
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git status
+
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   "Introducao-ao-Git-Github/Anota\303\247\303\265es.txt"
+
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git commit -m "Novas Inclusões de novas anotações do curso de Git/Github"
+
+[main 5c376ca] Novas Inclus├Áes de novas anota├º├Áes do curso de Git/Github
+ 1 file changed, 60 insertions(+)
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git status
+
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+$ git push origin main
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git/'
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git push origin main
+
+Logon failed, use ctrl+c to cancel basic credential prompt.
+To https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git push origin main
+
+Logon failed, use ctrl+c to cancel basic credential prompt.
+To https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git status
+
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git push origin main
+
+Logon failed, use ctrl+c to cancel basic credential prompt.
+To https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+$ ^C
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git pull origin main
+
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 1.06 KiB | 45.00 KiB/s, done.
+From https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio
+ * branch            main       -> FETCH_HEAD
+   2aa6faa..7080a43  main       -> origin/main
+Auto-merging Introducao-ao-Git-Github/Anota├º├Áes.txt
+CONFLICT (content): Merge conflict in Introducao-ao-Git-Github/Anota├º├Áes.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main|MERGING)
+$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 3 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   "Introducao-ao-Git-Github/Anota\303\247\303\265es.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main|MERGING)
+
+$ git add .
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main|MERGING)
+
+$ git status
+
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 3 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   "Introducao-ao-Git-Github/Anota\303\247\303\265es.txt"
+
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main|MERGING)
+$ git commit -m "Novas Inclusões de novas anotações do curso de Git/Github"
+[main db7d336] Novas Inclus├Áes de novas anota├º├Áes do curso de Git/Github
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git status
+
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git pull origin main
+
+From https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+$ git pull origin main
+From https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git push origin main
+
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Ma@10111966Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (16/16), 2.65 KiB | 159.00 KiB/s, done.
+Total 16 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git
+   7080a43..db7d336  main -> main
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
