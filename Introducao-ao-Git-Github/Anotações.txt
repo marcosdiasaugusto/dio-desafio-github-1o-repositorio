@@ -21,3 +21,63 @@ git add.
 git commit -m "Inclusão de novas anotações do curso de Git/Github"
 git push origin main
 git status
+
+Exemplo:
+
+$ git status
+
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   "Introducao-ao-Git-Github/Anota\303\247\303\265es.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git add .
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git status
+
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   "Introducao-ao-Git-Github/Anota\303\247\303\265es.txt"
+
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git commit -m "Novas Inclusões de novas anotações do curso de Git/Github"
+
+[main 58b0560] Novas Inclus├Áes de novas anota├º├Áes do curso de Git/Github
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git status
+
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+
+$ git push origin main
+
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/marcosdiasaugusto/dio-desafio-github-1o-repositorio.git/'
+
+Marcos@MARCOS-DELL MINGW64 /c/workspace/dev/git/dio/dio-desafio-github-1o-repositorio (main)
+$
